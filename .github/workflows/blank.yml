@@ -23,3 +23,6 @@ jobs:
 
       - name: Compilation du projet
         run: mvn clean compile
+
+      - name: Lancement des tests
+        run: mvn test
